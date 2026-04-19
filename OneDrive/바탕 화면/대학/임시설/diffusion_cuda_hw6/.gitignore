@@ -1,0 +1,79 @@
+*_bchw.npy
+*_img_*.png
+
+# vscode
+.vscode
+
+# logs
+*err.txt
+*out.txt
+
+# results
+oneres_*_*
+attention_*_*
+
+# build
+build
+
+# binary
+bin
+
+# pycache
+__pycache__
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# pipeline / runtime outputs (see scripts/run.sh, test.sh, main.cpp)
+results/
+
+# CMake (alternate build dirs or exported DB)
+cmake-build-*/
+compile_commands.json
+
+# IDEs and OS junk
+.idea/
+.vs/
+.DS_Store
+*~
+*.swp
+*.swo
+
+# local Python environments
+.venv/
+venv/
+*.egg-info/
+
+# misc generated
+*.log
+*.tmp
